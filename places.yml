@@ -1,0 +1,195 @@
+- name: wan chin
+  neighbourhood: gracia
+  cuisine: asian
+
+- name: udon rotonda
+  neighbourhood: sant gervasi
+  cuisine: asian
+
+- name: garage beer
+  neighbourhood: eixample
+  cuisine: bar
+- name: bar universitat
+  neighbourhood: ciutat vella
+  cuisine: bar
+- name: la llibertaria
+  neighbourhood: ciutat vella
+  cuisine: bar
+- name: el celler d'en frank peterssein (bodega armando)
+  neighbourhood: raval
+  cuisine: bar
+- name: la trini
+  neighbourhood: gracia
+  cuisine: bar
+- name: jazzman
+  neighbourhood: dreta d'eixample
+  cuisine: bar
+- name: caliu
+  neighbourhood: gracia
+  cuisine: bar 
+- name: bandarra
+  neighbourhood: vila de gracia
+  cuisine: bar 
+
+- name: parrilla alfonsina
+  neighbourhood: eixample
+  cuisine: argentinian
+- name: la cabrera
+  neighbourhood: eixample
+  cuisine: argentinian
+
+- name: antonias
+  neighbourhood: putxet
+  cuisine: burger
+- name: el pibe
+  neighbourhood: gracia
+  cuisine: burger
+- name: vicio
+  neighbourhood: gracia
+  cuisine: burger
+- name: machaka
+  neighbourhood: eixample
+  cuisine: burger
+- name: la real
+  neighbourhood: eixample
+  cuisine: burger
+
+- name: flax & kale
+  neighbourhood: ciutat vella
+  cuisine: healthy
+
+- name: benzina
+  neighbourhood: eixample
+  cuisine: italian
+- name: doppietta
+  neighbourhood: eixample
+  cuisine: italian
+- name: la balanza
+  neighbourhood: sant gervasi
+  cuisine: italian 
+- name: frenki gallo cha cha cha
+  neighbourhood: raval
+  cuisine: italian
+- name: la fuga
+  neighbourhood: eixample
+  cuisine: italian
+
+- name: bird
+  neighbourhood: puxet
+  cuisine: café
+- name: candela canela
+  neighbourhood: gracia
+  cuisine: café
+- name: trhee marks
+  neighbourhood: marina
+  cuisine: café
+- name: by kate
+  neighbourhood: eixample
+  cuisine: café
+- name: brklyn
+  neighbourhood: poblenou
+  cuisine: café
+- name: truco
+  neighbourhood: eixample
+  cuisine: café
+- name: auto rosellon
+  neighbourhood: eixample
+  cuisine: café
+- name: nomad
+  neighbourhood: poblenou
+  cuisine: café
+- name: roastclub
+  neighbourhood: eixample
+  cuisine: café
+
+- name: martas lemon pie
+  neighbourhood: sant gervasi
+  cuisine: pastry
+- name: jon cake
+  neighbourhood: ciutat vella
+  cuisine: pastry
+- name: a casa portuguesa
+  neighbourhood: gracia
+  cuisine: pastry
+- name: la patisseria de gracia
+  neighbourhood: gracia
+  cuisine: pastry
+- name: lukumas
+  neighbourhood: gracia
+  cuisine: pastry
+- name: la masovera
+  neighbourhood: sants
+  cuisine: pastry
+
+- name: sabes una cosa
+  neighbourhood: gracia
+  cuisine: mexican
+- name: cantina machito
+  neighbourhood: gracia
+  cuisine: mexican
+- name: cantina machito
+  neighbourhood: gracia
+  cuisine: mexican
+
+- name: bella istambul
+  neighbourhood: eixample
+  cuisine: turkish
+
+- name: el pollo
+  neighbourhood: ciutat vella
+  cuisine: spanish
+
+- name: bar alegria
+  neighbourhood: eixample
+  cuisine: spanish
+
+- name: enparte
+  neighbourhood: born
+  cuisine: french
+
+- name: fred y elsa
+  neighbourhood: ciutat vella
+  cuisine: 
+
+- name: kibuka
+  neighbourhood: gracia
+  cuisine: japanese
+- name: kibo taberna
+  neighbourhood: sant gervasi
+  cuisine: japanese
+
+- name: petit bangkok
+  neighbourhood: poblenou
+  cuisine: thai
+
+
+- name: mirals
+  neighbourhood: gracia
+  cuisine: spanish
+- name: nuri
+  neighbourhood: poblenou
+  cuisine: spanish
+- name: els tres tombs
+  neighbourhood: ciutat vella
+  cuisine: spanish
+- name: bona sort
+  neighbourhood: ciutat vella
+  cuisine: spanish
+- name: la bicicleta
+  neighbourhood: gracia
+  cuisine: spanish
+- name: la scaletta
+  neighbourhood: sant gervasi
+  cuisine: spanish
+
+- name: xiroi
+  neighbourhood: nova icaraia
+  cuisine: xiringuito
+
+- name: el magraner boig
+  neighbourhood: ciutat vella
+  cuisine: greek
+
+- name: casa valls
+  neighbourhood: unknown
+  cuisine: seafood

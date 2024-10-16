@@ -1,0 +1,10 @@
+<html>
+<link rel="stylesheet" href="/assets/styles.css">
+<body>
+  <h1>Rauxa</h1>
+  {{range $index, $place := .places}}
+    <a href="/places/{{ $index }}">
+      <h2>{{.Name}}</h2>
+    </a>
+  {{end}}
+</html>

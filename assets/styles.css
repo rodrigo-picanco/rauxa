@@ -1,0 +1,33 @@
+
+:root {
+        --grey: #333;
+        --light-grey: #555;
+
+        font-family: monospace;
+        color: var(--grey);
+}
+
+body {
+        padding: 2rem;
+        max-width: 800px;
+        margin: 0 auto;
+}
+
+h1 {
+        font-size: 2rem;
+        color: var(--grey);
+}
+
+h2 {
+        font-size: 1.5rem;
+        margin-block-start: 0;
+}
+
+
+a {
+        color: var(--light-grey);
+}
+
+a:hover {
+        text-decoration: underline;
+}
