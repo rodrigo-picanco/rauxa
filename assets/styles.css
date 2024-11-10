@@ -2,20 +2,45 @@
 :root {
         --grey: #333;
         --light-grey: #555;
-
         font-family: monospace;
         color: var(--grey);
 }
 
-body {
+table {
+        width: 100%;
+        grid-column: 2;
+        grid-row: 2;
+}
+
+th {
+        text-align: left;
+        cursor: pointer;
+}
+
+main {
+        display: grid;
+        grid-template-columns: 1fr auto;
         padding: 2rem;
-        max-width: 800px;
+}
+
+body {
         margin: 0 auto;
+        max-width: 800px;
+        padding: 2rem;
+}
+
+.logo{
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        font-family: sans-serif;
+        color: var(--grey);
+        font-size: 6rem;
+        text-transform: uppercase;
 }
 
 h1 {
         font-size: 2rem;
-        color: var(--grey);
+        margin-block-start: 0;
 }
 
 h2 {
@@ -25,6 +50,7 @@ h2 {
 
 
 a {
+
         color: var(--light-grey);
 }
 

@@ -24,13 +24,11 @@ func main() {
                 panic(err)
         }
 
-
-
         r := gin.Default()
         r.LoadHTMLGlob("templates/**")
         r.GET("/places", func(c *gin.Context) {
-                c.HTML(200, "places.tmpl", gin.H{
-                        "places": places,
+                c.HTML(200, "places.tpl", gin.H{
+                        "places": sortPlaces(places, c.DefaultQuery("sort", "name")),
                 })
         })
 
@@ -45,7 +43,7 @@ func main() {
 
                 place := places[i]
 
-                c.HTML(200, "place.tmpl", gin.H{
+                c.HTML(200, "place.tpl", gin.H{
                         "Name": place.Name,
                         "Neighbourhood": place.Neighbourhood,
                         "Cuisine": place.Cuisine,
@@ -56,3 +54,19 @@ func main() {
 
         r.Run(":8088")
 }
+
+func sortPlaces(places []Place, sort string) []Place {
+        for i := 0; i < len(places); i++ {
+                for j := i + 1; j < len(places); j++ {
+                        if sort == "name" && places[i].Name > places[j].Name {
+                                places[i], places[j] = places[j], places[i]
+                        } else if sort == "neighbourhood" && places[i].Neighbourhood > places[j].Neighbourhood {
+                                places[i], places[j] = places[j], places[i]
+                        } else if sort == "cuisine" && places[i].Cuisine > places[j].Cuisine {
+                                places[i], places[j] = places[j], places[i]
+                        }
+                }
+        }
+        return places
+}
+
