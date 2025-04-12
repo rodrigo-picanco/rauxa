@@ -26,13 +26,14 @@ func main() {
 
         r := gin.Default()
         r.LoadHTMLGlob("templates/**")
-        r.GET("/places", func(c *gin.Context) {
+
+        r.GET("/", func(c *gin.Context) {
                 c.HTML(200, "places.tpl", gin.H{
                         "places": sortPlaces(places, c.DefaultQuery("sort", "name")),
                 })
         })
 
-        r.GET("/places/:id", func(c *gin.Context) {
+        r.GET("/:id", func(c *gin.Context) {
                 id := c.Param("id")
                 i, e := strconv.Atoi(id)
 
